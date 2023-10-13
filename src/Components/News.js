@@ -44,7 +44,7 @@ const News =(props)=> {
                 <h1 className='text-center first' style={{
                     fontStyle: "italic",
                     fontFamily: "initial"
-                }} >NewsMonkey  -Top  {capitaliz(props.category)} Headlines</h1>
+                }} > Top  {capitaliz(props.category)} Headlines</h1>
                 {loading && <Spinner/>}
                 <InfiniteScroll
                     dataLength={articles.length}
